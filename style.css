@@ -10,13 +10,19 @@ body {
 }
 
 #time {
-    font-size: 8rem;
+    font-size: 15vi;
     text-align: center;
     display: flex;
     height: 75vh;
     justify-content: center;
     align-items: center;
     font-family: 'Orbitron', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    #time {
+        font-size: 18vi;
+    }
 }
 
 #buttons {

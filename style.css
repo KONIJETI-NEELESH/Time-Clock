@@ -10,7 +10,7 @@ body {
 }
 
 #time {
-    font-size: 15vi;
+    font-size: 10rem;
     text-align: center;
     display: flex;
     height: 75vh;
